@@ -276,7 +276,7 @@ public class Quiz {
         System.out.println("Você chegou ao fim do quiz!");
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Total de erros: " + erros);
-        System.out.println("Você acertou: " + ((contador/15)*100) + "% das questões")
+        System.out.println("Você acertou: " + ((contador/15)*100) + "% das questões");
         System.out.println("Você gastou: "+(clockend - clockstart )/1000 + "s");
 
     }
