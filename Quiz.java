@@ -270,6 +270,7 @@ public class Quiz {
         int erros;
         erros = (15 - contador);
         System.out.println("Total de acertos: " +contador+"/15");
+        System.out.println("Total de erros: " + erros);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         long clockend = System.currentTimeMillis();
