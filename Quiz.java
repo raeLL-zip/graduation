@@ -267,6 +267,8 @@ public class Quiz {
         if(qst15.isCorreta()){
             contador++;
         }
+        int erros;
+        erros = (15 - contador);
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
