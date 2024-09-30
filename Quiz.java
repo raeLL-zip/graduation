@@ -274,7 +274,7 @@ public class Quiz {
 
         long clockend = System.currentTimeMillis();
         long prct;
-        prct = ((contador)/15)*100);
+        prct = ((100*contador)/15);
         System.out.println("Você chegou ao fim do quiz!");
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Total de erros: " + erros);
